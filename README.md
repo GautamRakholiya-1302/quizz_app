@@ -27,9 +27,19 @@ Follow these steps to clone, configure, and run the project:
 - **Node.js** and **npm**
 - **MongoDB**
 
+## Environment Configuration
+
+1. Create a `.env` file in the `backend` folder and make sure in backend directory make uploads folder and  configure the following variables:
+   ```env
+   PORT=5000
+   MONGO_URI=your-mongodb-connection-string
+   JWT_SECRET=your-secret-key
+
 ### Cloning the Repository
 
 ```bash
 git clone URL
 cd <repository-folder>
+
+
 
